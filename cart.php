@@ -4,10 +4,11 @@ include('header.php');
 ?>
 
 
+
 <?php
 
-//include product file
-include('Template/_products.php');
+//include cart temp
+include('Template/_cart-temp.php');
 //include coming soon
 include('Template/_coming.php');
 ?>
