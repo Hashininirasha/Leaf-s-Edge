@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonect</title>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!--Owl Carousel-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+
+    <!--font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!--custom CSS file-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!--start header-->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-8 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">Hashini Munasinghe 071-3967671</p>
+        <div class="font-rale font-size-14">
+            <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+            <a href="#" class="px-3 border-right text-dark">Whishlist (0)</a>
+        </div>
+    </div>
+    <!--primary Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+        <img src="./assest/logo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav m-auto font-rubik">
+              <li class="nav-item active">
+                  <a class="nav-item nav-link active" href="#">On Sale</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="#">Category</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="#">Pots</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="#">Blog</a> 
+              </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="#">Gift Items</a> 
+              </li>
+          </ul> 
+      </div>
+          <form action="#" class="font-size-14 font-rale">
+              <a href="#" class="py-2 rounded-pill color-primary-bg">
+                <span class="font-size-16 px-3 text-white">
+                    <i class="fas fa-shopping-cart"></i>
+                </span>
+                <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+              </a>
+          </form>
+        </div>
+      </nav>
+      <!--!primary Navigation-->
+    </header>
+   <!--close header-->
+   <!--strat main site-->
+
+   <!--shopping cart section-->
+    <section id="cart" class="py-3">
+        <div class="container-fluid w-75">
+            <h5 class="font-baloo font-size-20">Shopping cart</h5>
+            <!--shopping cart items-->
+                <div class="row">
+                    <div class="col-sm-9">
+                        <!--cart item-->
+                            <div class="row border-top py-3 mt-3">
+                                <div class="col-sm-2">
+                                    <img src='./assest/products/T1.jpg' style="height:120px;" alt="cart1" class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h5 class="font-baloo font-size-20">Aeonium with Dino</h5> 
+                                    <small>Aeonium</small>
+                                    <!--product rating-->
+                                    <div class="d-flex">
+                                        <div class="rating text-warning font-size-12">
+                                            <span>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="px-2 font-rale font-size-14">20 536 ratings</a>
+                                    </div>
+                                    <!--!product rating-->
+                                    <!--product qty-->
+                                        <div class="qty d-flex pt-2">
+                                            <div class="d-flex font-rale w-25">
+                                            <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                            <input type="text" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                            <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                            </div>
+                                            <button type="submit" class="btn font-baloo text-danger px-3">Delete</button>
+                                            <button type="submit" class="btn font-baloo text-danger">Save for later</button>
+                                        </div>
+
+
+                                    <!--!product qty-->
+                                </div>
+
+                                <div class="col-sm-2 text-right">
+                                    <div class="font-size-20 text-danger font-baloo"></div>
+                                    <span class="product_price">Rs.850</span>
+                                </div>
+                            </div>
+
+                            <div class="row border-top py-3 mt-3">
+                                <div class="col-sm-2">
+                                    <img src='./assest/products/T2.jpg' style="height:120px;" alt="cart1" class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h5 class="font-baloo font-size-20">Radmi Note 8</h5> 
+                                    <small>Xiaomi</small>
+                                    <!--product rating-->
+                                    <div class="d-flex">
+                                        <div class="rating text-warning font-size-12">
+                                            <span>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="px-2 font-rale font-size-14">10 541 ratings</a>
+                                    </div>
+                                    <!--!product rating-->
+                                    <!--product qty-->
+                                        <div class="qty d-flex pt-2">
+                                            <div class="d-flex font-rale w-25">
+                                            <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                            <input type="text" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                            <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                            </div>
+                                            <button type="submit" class="btn font-baloo text-danger px-3">Delete</button>
+                                            <button type="submit" class="btn font-baloo text-danger">Save for later</button>
+                                        </div>
+
+
+                                    <!--!product qty-->
+                                </div>
+
+                                <div class="col-sm-2 text-right">
+                                    <div class="font-size-20 text-danger font-baloo"></div>
+                                    <span class="product_price">Rs.25 000</span>
+                                </div>
+                            </div>
+
+
+                        <!--!cart item-->
+                        <!--subtotal section-->
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="sub-total border text-center mt-3">
+                            <h6 class="font-size-14 font-baloo text-success py-2"><i class="fas fa-calendar-check"></i>Your Order is eligibal for FREE Deilvery.</h6>
+                        <div class="border-top py-4">
+                            <h5 class="font-baloo font-size-20">Subtotal(2 items)&nbsp:<span class="text-danger" id="deal_price"> Rs.850</span></h5>
+                            <button type="submit" class="btn btn-danger mt-3">Proceed to buy</button>
+                        </div>
+                        </div>
+
+                    </div>
+                    <!--1subtotal section-->
+                </div>
+
+                
+
+            <!--!shopping cart items-->
+        </div>
+    </section>
+
+
+
+    <!--!shopping cart section-->
+    <!--coming soon-->
+    <section id="coming">
+        <div class="container py-5">
+            <h4 class="font-rubik font-size-20 ">Upcoming Leaf's Edge</h4>
+            <hr>
+            <!--Owl Carousel-->
+            
+            <div class="owl-carousel owl-theme">
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C1.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Two Land Plant</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs.1 600</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C5.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Aeonium Swing</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs.3 600</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C8.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Cat verity Garden</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs.2 500</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C7.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Ochid Man</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs.1 200</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C3.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Rabbit hole</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs.2 800</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C2.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Snail shell</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs. 800</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assest/coming/C6.jpg" alt="product" class="img-fluid"></a><br>
+                        <div class="text-center">
+                            <h6>Unicorn Aeonium</h6>
+                        
+                        <div class="price py-2">
+                            <span>Rs.1 200</span>
+                        </div>
+                        <button type="submit" class="btn btn-success dark color-second-bg font-size-12">Coming Soon</button>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+        <!--!Owl Carousel-->
+        </div>
+    </section>
+    <!--!coming Soon-->
+   <!--!strat main site-->
+    <!--footer-->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <img src="./assest/logo.png" alt="logo">
+                    <p class="font-size-14 font-rale text-white-50">Nothing to lose, plenty to gain. Get the latest phone news and offers.</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik fonr-size-20">Newsalatter</h4>
+                    <form class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email *">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-success dark color-second-bg my-2">Subscribe</button>
+                        </div>
+                        
+                    </form>
+
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class="font-rubik fonr-size-20">Information</h4>
+                    <div class="d-flex flex-column flex-warp">
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                        <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Condition</a>
+                    </div>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <h4 class="font-rubik fonr-size-20">Account</h4>
+                        <div class="d-flex flex-column flex-warp">
+                            <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                            <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                            <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                            <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsalatter</a>
+                        </div>
+                        </div>
+
+            </div>
+        </div>
+        <div class="copyright text-center bg-dark text-white py-2">
+            <p class="font-rale font-size-14">&copy; Copyrights 2021.Desing By <a href="https://github.com/Hashininirasha" class="color-second">  Hashini Munasinghe ❤ </a></p>
+        </div>
+
+    </footer>
+
+    <!--!footer-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <!--Owl Carouseljs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    
+    
+    <!--isotope plugin cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+    <!--!isotope plugin cdn-->
+    <!--Custom JS-->
+    <script src="./index.js">
+</script>
+</body>
+</html>
