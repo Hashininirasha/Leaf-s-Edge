@@ -13,7 +13,15 @@ class DBController{
 
     //call constracture
     public function __construct(){
+        $this->con = mysqli_connect($this->host,$this->user,$this->password,$this->database);
+        if($this->con->connect_error){
+            echo"Fail".$this->con->connect_error;
+        }
+        echo'connection Successful!';
 
     }
-    
+  
 }
+  //DB controller object
+  $db = new DBController();
+    
