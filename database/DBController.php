@@ -22,6 +22,5 @@ class DBController{
     }
   
 }
-  //DB controller object
-  $db = new DBController();
+ 
     
