@@ -335,7 +335,7 @@
                                         </span>
                                     </div>
                                     <div class="price py-2">
-                                        <span>Rs.5 000</span>
+                                        <span>Rs.890</span>
                                     </div>
                                     <button type="submit" class="btn btn-warning font-size-12"><i class="fas fa-shopping-cart"></i>|Add to cart</button>
                                         </div>
