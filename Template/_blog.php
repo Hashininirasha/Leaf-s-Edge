@@ -9,7 +9,7 @@
                                 <h5 class="card-title font-size-16 dark color-second-bg text-white">GIVING THEM BEAUTIFUL COLORS</h5>
                                 <img src="./assest/Blog/B1.jpg" alt="Upcomming mobiles" class="img-top">
                                 <p class="card-text font-size-14 text-black-50 py-1">Visit any gardening supply store or nursery, and you’ll likely be blown away by the colorful succulents lining the shelves. Take those succulents home, and you may be dismayed that they turn a more bland shade of green after a short period of time.Your succulents are healthy, so what gives?</p>
-                                <a href="https://www.cnet.com/news/best-phone-2021-buy/" class="color-second text-left">Read Continuously</a>
+                                <a href="_blog1.html" class="color-second text-left">Read Continuously</a>
                             </div>
                         </div>
                         <div class="item">
