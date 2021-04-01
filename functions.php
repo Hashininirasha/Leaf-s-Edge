@@ -12,4 +12,6 @@ require ('database/product.php');
  //product object
  $product = new Product($db);
 
+
+
  

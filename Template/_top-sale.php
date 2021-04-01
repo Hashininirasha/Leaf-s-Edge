@@ -1,4 +1,8 @@
 <!--Top sale-->
+<?php
+    $product_shuffle=$product->getData();
+
+?>
 <section id="top-sale">
             <div class="container py-5">
                 <h4 class="font-rubik font-size-20 ">Top Sale</h4>
@@ -6,7 +10,9 @@
                 <!--Owl Carousel-->
                 
                 <div class="owl-carousel owl-theme">
+                    <?php foreach($product_shuffle as $item) {?>
                     <div class="item py-2">
+
                         <div class="product font-rale">
                             <a href="#"><img src="./assest/products/T1.jpg" alt="product" class="img-fluid"></a><br>
                             <div class="text-center">
@@ -25,10 +31,9 @@
                             </div>
                             <button type="submit" class="btn btn-warning font-size-12"><i class="fas fa-shopping-cart"></i>|Add to cart</button>
                                 </div>
-                                
-
-                                
-                        </div>
+                                </div>
+                    
+                    <?php} //closing foreach function ?>
                     </div>
                     <div class="item py-2">
                         <div class="product font-rale">
