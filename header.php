@@ -51,19 +51,19 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav m-auto font-rubik">
             <li class="nav-item active">
-                <a class="nav-item nav-link active" href="#">On Sale</a>
+                <a class="nav-item nav-link active" href="#top-sale">On Sale</a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" href="#">Category</a>
+                <a class="nav-item nav-link" href="#special-price">Category</a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" href="#">Pots</a>
+                <a class="nav-item nav-link" href="#pots">Pots</a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" href="#">Blog</a> 
+                <a class="nav-item nav-link" href="#blogs">Blog</a> 
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" href="#">Gift Items</a> 
+                <a class="nav-item nav-link" href="gift.html">Gift Items</a> 
             </li>
         </ul> 
     </div>
