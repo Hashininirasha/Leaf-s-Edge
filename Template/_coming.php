@@ -49,7 +49,7 @@
                     <div class="product font-rale">
                         <a href="#"><img src="./assest/coming/C7.jpg" alt="product" class="img-fluid"></a><br>
                         <div class="text-center">
-                            <h6>Ochid Man</h6>
+                            <h6>Orchid Man</h6>
                         
                         <div class="price py-2">
                             <span>Rs.1 200</span>

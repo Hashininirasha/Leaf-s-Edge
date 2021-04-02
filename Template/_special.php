@@ -240,7 +240,7 @@
                                 <div class="product font-rale">
                                     <a href="#"><img src="./assest/products/O2.jpg" alt="product" class="img-fluid"></a>
                                     <div class="text-center">
-                                        <h6>Magic Plant</h6>
+                                        <h6>Money Plant</h6>
                                     <div class="rating text-warning font-size-12">
                                         <span>
                                             <i class="fas fa-star"></i>
