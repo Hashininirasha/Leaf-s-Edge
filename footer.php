@@ -28,9 +28,9 @@
                      <a href="about.html" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
                      
                      
-                     <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                     <a href="delivery.html" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
                      <a href="policy.html" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
-                     <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Condition</a>
+                     <a href="terms.html" class="font-rale font-size-14 text-white-50 pb-1">Terms & Condition</a>
                  </div>
                  </div>
                  <div class="col-lg-2 col-12">
