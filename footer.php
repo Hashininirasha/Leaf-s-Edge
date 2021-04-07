@@ -25,34 +25,11 @@
              <div class="col-lg-2 col-12">
                  <h4 class="font-rubik fonr-size-20">Information</h4>
                  <div class="d-flex flex-column flex-warp">
-                     <a href="#" class="font-rale font-size-14 text-white-50 pb-1" data-bs-toggle="modal" data-bs-target="#exampleModal">About Us</a>
-                     <!-- Modal -->
-                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title  dark color-second" id="exampleModalLabel">About Us</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body  dark color-second font-rubik font-size-4">
-                                  <p>We are the One of Leading Online Plant Seller Company in Sri Lanka. Another specialty store we love, Online Platform is fairly new on the green scene. </p>
-                                  <p>The store for those with very specific plant tastes. The Cactus Store sells a variety of cacti and cacti accessories. </p>
-                                  <p>Between Your approachable and helpful plant care tips to gorgeous photography and the easy-to-shop categories, there's a lot to love about shopping for plants from The Sill. What started as a small, stylish shop on Ratnapura has become a bit of a sensation among those aspiring to develop Our green thumb and fill their home with Instagram-worthy house plants.</p>
-                                  <p>We aim to Give Hight Quality Plants to you with free Delivery. Decorate your special day with us to show some love to your loved ones. </p>                                
-                                <hr>
-                                <img src="./assest/logo.png" alt="logo">
-
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-success dark color-second-bg my-2" data-bs-dismiss="modal">Ok</button>
-                                  
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                     <a href="about.html" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                     
                      
                      <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
-                     <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                     <a href="policy.html" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
                      <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Condition</a>
                  </div>
                  </div>
