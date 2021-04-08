@@ -1,6 +1,6 @@
 <?php
 //use to fetch product data
-class Product
+class topsale
 {
     public $db=null;
 
@@ -11,7 +11,7 @@ class Product
 
     }
      // fetch product data using getData Method
-     public function getData($table = 'product'){
+     public function getData($table = 'topsale'){
         $result = $this->db->con->query("SELECT * FROM {$table}");
 
         $resultArray = array();

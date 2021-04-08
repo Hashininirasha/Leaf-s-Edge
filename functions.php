@@ -4,13 +4,13 @@
 require ('database/DBController.php');
 
 //require product class
-require ('database/product.php');
+require ('database/topsale.php');
 
  //DB controller object
  $db = new DBController();
 
  //product object
- $product = new Product($db);
+ $product = new topsale($db);
 
 print_r($product->getData());
 
