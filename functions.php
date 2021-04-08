@@ -1,17 +1,21 @@
 <?php
 
-//require MySql Connection
+// require MySQL Connection
 require ('database/DBController.php');
 
-//require product class
+// require Product Class
 require ('database/topsale.php');
 
- //DB controller object
- $db = new DBController();
 
- //product object
- $product = new topsale($db);
 
-print_r($product->getData());
+
+// DBController object
+$db = new DBController();
+
+// Product object
+$topsale = new topsale($db);
+$topsale_shuffle = $topsale->getData();
+
+print_r($topsale->getData());
 
  
